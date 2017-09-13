@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Live</title>
+  </head>
+  <body>
+    <!-- This is the React root element, where we'll mount our components -->
+    <div id="app"></div>
+
+    <!-- Include React and React-DOM -->
+    <script src="https://unpkg.com/react@15.6.1/dist/react.min.js"></script>
+    <script src="https://unpkg.com/react-dom@15.6.1/dist/react-dom.min.js"></script>
+
+    <!-- Include Babel. This is used to transpile (convert) JSX into JS -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <!-- type="text/jsx" will cause Babel to process this file. Note that this is VERY inefficient and should NEVER be used in production! -->
+    <script type="text/jsx" src="reactLogin.jsx"></script>
+  </body>
+</html>
